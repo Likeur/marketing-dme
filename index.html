@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test tailwind</title>
+
+    <link rel="stylesheet" href="tailwind.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="bg-white overflow-x-hidden ">
+    
+    
+    <div>
+        <div class="bg-violet-700 duration-300 rounded-br-[4rem] " id="Home">
+            <div class="sticky top-0 bg-violet-700 text-white p-4 flex justify-between z-50 items-center border-b border-b-white/30 md:flex-row md:justify-between md:items-center md:h-[10vh]">
+                <div>
+                    <h1 class="font-bold text-2xl">D<span class="text-orange-400">M</span>E</h1>
+                </div>
+                <div class="md:hidden">
+                    <button class="btn-menu ">
+                        <div class="h-1 w-7 bg-white rounded-md bar-1 duration-300"></div>
+                        <div class="h-1 w-5 bg-white mt-1 rounded-md bar-2 duration-300"></div>
+                        <div class="h-1 w-7 bg-white mt-1 rounded-md bar-3 duration-300"></div>
+                    </button>
+                </div>
+                <nav class="absolute w-[80%] top-16 left-0 flex justify-center duration-500 bg-violet-700 text-white text-2xl rounded-br-[2rem] shadow-2xl -translate-x-[100%] navbar md:relative md:-translate-x-[0%] md:top-0 md:bg-transparent  md:shadow-none">
+                    <ul class="flex flex-col  m-5 md:flex-row">
+                        <li><a href="#Home" class="block bg-white text-violet-700 p-2 px-5 rounded-lg btn-home">Home</a></li>
+                        <li><a href="#Service" class="block mt-3 p-2 px-5 btn-service">Services</a></li>
+                        <li><a href="#About" class="block mt-3 p-2 px-5 btn-about">About us</a></li>
+                        <li><a href="#Team" class="block mt-3 p-2 px-5 btn-team">Team</a></li>
+                        <li><a href="#Contact" class="block mt-3 p-2 px-5 btn-contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="p-4">
+                <div class="mt-7">
+                    <h1 class="text-6xl font-bold text-center text-white mt-2">Digital <br>
+                        <span class="mt-1 text-orange-400">Marketing</span> <br>
+                        Experts
+                    </h1>
+                    <p class="text-gray-300 mt-7 text-center text-lg">
+                        Lorem ipsum adipisicing elit. Nemo consectetur, vero neque sapiente placeat tempore, laudantium, sint dolorem dignissimos possimus aperiam 
+                    </p>
+
+                    <div class="flex justify-center mb-7">
+                        <a href="#" class="block bg-orange-400 text-white text-2xl p-3 px-7 w-[70%] mt-7 text-center rounded-md">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="p-3" id="Service">
+            <div class="mt-7 flex flex-col justify-center items-center">
+                <h1 class="text-3xl font-bold text-gray-700">Our Services</h1>
+
+                <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                    Lorem ipsum adipisicing elit. , laudantium, sint dolorem dignissimos possimus aperiam 
+                </p>
+            </div>
+
+            <div class="">
+                <div class="md:flex justify-around">
+                    <div class="h-[45vh] bg-white flex flex-col border mt-7 justify-center items-center shadow-lg md:flex-row md:w-[45%]">
+                
+                        <div>
+                            <div class="flex justify-center mb-3">
+                                <i class='bx bx-globe text-6xl'></i>
+                            </div>
+                            <h1 class="text-center text-2xl font-bold text-gray-700">Link Building</h1>
+                            <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                                Lorem ipsum a , laudantium, sint dolorem dignissimos possimus aperiam 
+                            </p>
+    
+                            <div class="flex justify-center mt-7">
+                                <a href="" class="block bg-orange-500 w-[40%] p-2 rounded-md text-white text-center text-xl mt-2">read more</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="h-[45vh] bg-white flex flex-col border mt-7 justify-center items-center shadow-lg md:flex-row md:w-[45%]">
+    
+                        <div>
+                            <div class="flex justify-center mb-3">
+                                <i class='bx bx-file-find text-6xl'></i>
+                            </div>
+                            <h1 class="text-center text-2xl font-bold text-gray-700">On Page SEO</h1>
+                            <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                                Lorem ipsum a , laudantium, sint dolorem dignissimos possimus aperiam 
+                            </p>
+    
+                            <div class="flex justify-center mt-7">
+                                <a href="" class="block bg-orange-500 w-[40%] p-2 rounded-md text-white text-center text-xl mt-2">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:flex justify-around">
+                    <div class="h-[45vh] bg-white flex flex-col border mt-7 justify-center items-center shadow-lg md:flex-row md:w-[45%]">
+    
+                        <div>
+                            <div class="flex justify-center mb-3">
+                                <i class='bx bx-line-chart text-6xl'></i>
+                            </div>
+                            <h1 class="text-center text-2xl font-bold text-gray-700">Online Marketing</h1>
+                            <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                                Lorem ipsum a , laudantium, sint dolorem dignissimos possimus aperiam 
+                            </p>
+    
+                            <div class="flex justify-center mt-7">
+                                <a href="" class="block bg-orange-500 w-[40%] p-2 rounded-md text-white text-center text-xl mt-2">read more</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="h-[45vh] bg-white flex flex-col border mt-7 justify-center items-center shadow-lg md:flex-row md:w-[45%]">
+                        
+                        <div class="flex flex-col justify-around">
+                            <div class="flex justify-center mb-3">
+                                <i class='bx bx-mail-send text-6xl'></i>
+                            </div>
+                            <h1 class="text-center text-2xl font-bold text-gray-700">Email Marketing</h1>
+                            <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                                Lorem ipsum a , laudantium, sint dolorem dignissimos possimus aperiam 
+                            </p>
+    
+                            <div class="flex justify-center mt-7">
+                                <a href="" class="block bg-orange-500 w-[40%] p-2 rounded-md text-white text-center text-xl mt-2">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           <div class="flex justify-center">
+             <a href="#" class="block bg-violet-700 p-2 px-6 mt-16 text-white text-center text-2xl  rounded-md">View All</a>
+           </div>
+        </div>
+
+        <div class="bg-violet-700 text-white mt-9 rounded-tl-[3rem]" id="About">
+            <div>
+                <div class="p-7">
+                    <h1 class="text-3xl font-bold mb-6">About Us</h1>
+
+                    <p  class="text-justify text-lg">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, dolorem rem expedita deleniti fugiat repellat nobis praesentium vel a cumque at explicabo commodi. Voluptates dolorem, commodi qui iste quaerat aspernatur!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quas provident veritatis mollitia debitis explicabo nihil, velit amet totam quos consequatur rerum, maiores error, nam nisi saepe obcaecati et! Eum!
+                    </p>
+
+                    <a href="#" class="block bg-orange-400 p-2 px-6 mt-6 text-white text-center text-2xl  rounded-md">Read more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-6 p-4">
+            <div>
+                <div class="flex flex-col justify-center items-center">
+                    <h1 class="text-3xl font-bold text-gray-700">Our Cases Study</h1>
+
+                    <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                        Lorem ipsum adipisicing elit. , laudantium, sint dolorem dignissimos possimus aperiam 
+                    </p>
+                </div>
+
+                <div class="md:flex md:justify-around">
+                    <div class="mt-7 shadow-2xl border rounded-md">
+                        <div class="">
+                            <div class="bg-[url('../src/img/case.jpg')] bg-cover h-[26vh] w-[100%]">
+        
+                            </div>
+                            <div class="p-4">
+                                <h1 class="text-center text-2xl font-bold text-gray-700">UI/UX concept</h1>
+        
+                                <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                                    Lorem ipsum adipisicing elit. , laudantium, sint dolorem dignissimos possimus aperiam 
+                                </p>
+    
+                                <div class="flex justify-center">
+                                    <a href="#" class="block bg-orange-400 text-white text-2xl p-2 px-7 w-[70%] mt-7 text-center rounded-md">Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="mt-7 shadow-2xl border rounded-md">
+                        <div class="">
+                            <div class="bg-[url('../src/img/caser.jpg')] bg-cover h-[26vh] w-[100%]">
+        
+                            </div>
+                            <div class="p-4">
+                                <h1 class="text-center text-2xl font-bold text-gray-700">Modern Website</h1>
+        
+                                <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                                    Lorem ipsum adipisicing elit. , laudantium, sint dolorem dignissimos possimus aperiam 
+                                </p>
+    
+                                <div class="flex justify-center">
+                                    <a href="#" class="block bg-orange-400 text-white text-2xl p-2 px-7 w-[70%] mt-7 text-center rounded-md">Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="mt-7 shadow-2xl border rounded-md">
+                        <div class="" >
+                            <div class="bg-[url('../src/img/studi.jpg')] bg-cover h-[26vh] w-[100%]">
+        
+                            </div>
+                            <div class="p-4">
+                                <h1 class="text-center text-2xl font-bold text-gray-700">Online vacation</h1>
+        
+                                <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                                    Lorem ipsum adipisicing elit. , laudantium, sint dolorem dignissimos possimus aperiam 
+                                </p>
+    
+                                <div class="flex justify-center">
+                                    <a href="#" class="block bg-orange-400 text-white text-2xl p-2 px-7 w-[70%] mt-7 text-center rounded-md">Book now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="p-3" id="Team">
+            <div class="mt-7 flex flex-col justify-center items-center">
+                <h1 class="text-3xl font-bold text-gray-700">Meet the Team</h1>
+
+                <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                    Lorem ipsum adipisicing elit. ,  aperiam 
+                </p>
+            </div>
+
+            <div class="mt-8 md:flex md:justify-center md:items-center">
+                <div class="flex flex-col justify-center items-center">
+                    <div>
+                        <img src="../src/img/like-icon.png" width="200"  alt="">
+                    </div>
+                    <div class="">
+                        <h1 class="text-3xl font-bold text-gray-700 text-center">Likeur <span class="text-orange-500">Off</span></h1>
+                        <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                            CEO DME & Frontend Developer 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col justify-center items-center mt-9 md:mt-0">
+                    <div>
+                        <img src="../src/img/jeno icon.png" width="200" alt="">
+                    </div>
+                    <div class="">
+                        <h1 class="text-3xl font-bold text-gray-700 text-center">Jenovic <span class="text-orange-500">.K</span></h1>
+                        <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                            Ir Cybersec & DME co-founder 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col justify-center items-center mt-9 md:mt-0">
+                    <div>
+                        <img src="../src/img/mbidi-icon.png" width="200" alt="">
+                    </div>
+                    <div class="">
+                        <h1 class="text-3xl font-bold text-gray-700 text-center">Jacques <span class="text-orange-500">I.M</span></h1>
+                        <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                            Admin SI & DME co-founder 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" p-3" id="Contact">
+            <div class=" shadow-lg border mt-7 p-3 rounded-md">
+                <div class="mt-7 flex flex-col justify-center items-center">
+                    <h1 class="text-3xl font-bold text-gray-700">Contact Us</h1>
+    
+                    <p class="text-gray-400 mt-4 text-center text-lg px-5">
+                        Complete this form to send a message 
+                    </p>
+                </div>
+                <div class="p-3 mt-5">
+                    <form action="">
+                        <input type="text" placeholder="Full name" class=" border w-[100%] p-3 rounded-md ">
+                        <input type="email" placeholder="Email" class=" border w-[100%] p-3 rounded-md mt-5">
+                        <input type="tel" placeholder="Phone number" class=" border w-[100%] p-3 rounded-md mt-5">
+                        <input type="text" name="" id="" placeholder="Message" class=" h-[20vh] border w-[100%] p-3 rounded-md mt-5">
+                        <input type="submit" value="Send Now" class=" bg-violet-700 text-white p-3 px-7 rounded-md mt-5">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-violet-700 text-white mt-9 rounded-tl-[3rem]">
+            <div>
+                <div class="p-7">
+                    <h1 class="text-3xl font-bold mb-6">DME</h1>
+
+                    <p  class="text-justify text-lg border-b border-b-white/50 mb-6 p-5">
+                        Lorem ipsum dolor, sit amet  fugiat repellat nobis praesentium . dolorem, commodi qui iste quaerat aspernatur!
+                        
+                    </p>
+
+                    <h1 class="text-2xl font-bold mb-6">Important Links</h1>
+
+                    <ul class="flex flex-col  m-5 md:flex-row border-l border-b-white/50">
+                        <li><a href="#Home" class="block text-white font-bold p-2 px-5 rounded-lg btn-home">Home</a></li>
+                        <li><a href="#Service" class="block mt-3 p-2 px-5 btn-service">Services</a></li>
+                        <li><a href="#About" class="block mt-3 p-2 px-5 btn-about">About us</a></li>
+                        <li><a href="#Team" class="block mt-3 p-2 px-5 btn-team">Team</a></li>
+                        <li><a href="#Contact" class="block mt-3 p-2 px-5 btn-contact">Contact</a></li>
+                    </ul>
+
+                    <h1 class="text-2xl font-bold mb-6">subscribe to news letter</h1>
+
+                    <input type="email" placeholder="Email" class=" border w-[100%] p-3 rounded-md mt-5 text-white focus:border-orange-400 focus:bg-transparent focus:outline-none focus:duration-200">
+
+                    <a href="#" class="block bg-orange-400 p-2 px-6 mt-6 text-white text-center text-2xl  rounded-md">Subscribe</a>
+
+                    <div class="flex justify-center text-xl mt-8">
+                        <i class='bx bxl-facebook-circle'></i>
+                        <i class='bx bxl-linkedin ml-4' ></i>
+                        <i class='bx bxl-instagram ml-4' ></i>
+                        <i class='bx bxl-whatsapp-square ml-4'></i>
+                    </div>
+                    <h1 class="text-xl mt-3 mb-6 text-center text-gray-300">All right Reserved <br> Copyright &copy; 2023 <br> Designed by Likeur off</h1>
+
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
