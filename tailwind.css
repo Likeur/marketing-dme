@@ -795,6 +795,30 @@ video {
   background-image: url('../src/img/studi.jpg');
 }
 
+.bg-\[url\(\'\.\.\/img\/studi\.jpg\'\)\] {
+  background-image: url('../img/studi.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/studi\.jpg\'\)\] {
+  background-image: url('./img/studi.jpg');
+}
+
+.bg-\[url\(\'\/img\/studi\.jpg\'\)\] {
+  background-image: url('/img/studi.jpg');
+}
+
+.bg-\[url\(\'img\/studi\.jpg\'\)\] {
+  background-image: url('img/studi.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/caser\.jpg\'\)\] {
+  background-image: url('./img/caser.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/case\.jpg\'\)\] {
+  background-image: url('./img/case.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
